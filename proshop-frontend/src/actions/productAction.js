@@ -17,7 +17,6 @@ export const listProducts = () => async (dispatch) => {
                 error.response.data.message :
                 error.message
         })
-
     }
 }
 
