@@ -1,11 +1,9 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 import { Container } from 'react-bootstrap';
 import HomeScreen from "./Screens/HomeScreen";
 import ProductScreen from "./Screens/ProductScreen";
-
 
 function App() {
   return (
@@ -22,10 +20,8 @@ function App() {
       </main>
       <Footer />
     </Router>
-
-
-    
   )
 }
 
 export default App;
+
